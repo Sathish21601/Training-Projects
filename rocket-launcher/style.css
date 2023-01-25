@@ -1,0 +1,73 @@
+body {
+  padding: 0;
+}
+
+.main-container {
+  min-width: 100vh;
+  display: flex;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.left,
+.right {
+  width: 50%;
+  min-height: 100vh;
+}
+
+.left {
+  background-color: coral;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.right {
+  background-color: aliceblue;
+  position: relative;
+}
+
+.rocket-icon {
+  width: 200px;
+  position: absolute;
+  bottom: 0;
+  left: 45%;
+  transition: 3s all ease-out;
+}
+
+body.state3 .rocket-icon {
+    bottom: 100% !important;
+}
+
+div.state1,
+div.state2,
+div.state3 {
+  width: 300px;
+  height: 200px;
+  background-color: white;
+  text-align: center;
+  border-radius: 8px;
+  padding: 15px;
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#btn {
+  background-color: teal;
+  padding: 8px 16px;
+  border-radius: 4px;
+  color: white;
+  text-decoration: none;
+  margin-top: 1rem;
+}
+
+body.state1 div.state1 {
+  display: flex;
+}
+body.state2 div.state2 {
+  display: flex;
+}
+body.state3 div.state3 {
+  display: flex;
+}
