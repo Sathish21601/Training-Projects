@@ -1,0 +1,22 @@
+body {
+  background-image: url(https://img.freepik.com/free-vector/music-record-vinyl-with-audio-beats_1017-30116.jpg?w=2000);
+}
+
+img {
+  width: 150px;
+}
+
+.song_container {
+  border: 5px solid yellowgreen;
+  width: 300px;
+  background-color: white;
+}
+
+.song_name {
+  text-align: center;
+}
+
+.song_list {
+  list-style: none;
+  cursor: pointer;
+}
