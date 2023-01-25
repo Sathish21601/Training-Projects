@@ -1,0 +1,31 @@
+*,*::after,*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    
+    @include respond(big-desktop) {
+        
+        background-color: orange;
+    } 
+    @include respond(tab-land) {
+        
+        background-color: green;
+    } 
+    @include respond(tab-port) {
+        
+        background-color: blue;
+    } 
+
+    @include respond(phone) {
+        
+        background-color: red;
+    }
+}
+
+body {
+    box-sizing: border-box;
+}

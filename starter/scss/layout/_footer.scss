@@ -1,0 +1,31 @@
+.footer {
+  background-color: $color-black;
+  margin-top: -250px;
+  padding-top: 50px;
+  &__logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 15rem;
+    padding-top: 5rem;
+  }
+
+  &__text-box {
+    color: $color-white;
+    display: flex;
+    padding-top: 7rem;
+    justify-content: space-evenly;
+  }
+
+  &__list {
+    text-decoration-line: overline;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+  }
+
+  &__contents {
+    margin-right: 5px;
+    // text-decoration-line: overline;
+  }
+}
