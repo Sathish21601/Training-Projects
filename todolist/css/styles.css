@@ -1,0 +1,40 @@
+body {
+  font-family: "Roboto", sans-serif;
+  background: lightgrey;
+}
+h1 {
+  text-align: center;
+}
+
+button {
+  background-color: crimson;
+  color: #fff;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: lightblue;
+  color: black;
+}
+
+table,
+form {
+  width: 200px;
+  margin: 20px auto;
+}
+table {
+  border-collapse: collapse;
+  text-align: center;
+}
+table td {
+  border: solid 1px black;
+}
+
+input {
+  display: block;
+  margin: 10px 0;
+  font-size: 20px;
+}
+button {
+  display: inline-block;
+}
